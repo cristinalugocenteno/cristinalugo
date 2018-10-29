@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cmlugoce/cristinalugo/issues"
   },
-  "homepage": "https://github.com/cmlugoce/cristinalugo#readme"
+  "homepage": "https://github.com/cmlugoce/cristinalugo#readme",
+  "dependencies": {
+    "particlesjs": "^2.2.3"
+  }
 }

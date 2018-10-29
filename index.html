@@ -11,6 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+		<script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -29,100 +31,162 @@
 			</section>
 
 		<!-- Wrapper -->
-			<div id="wrapper">
-
+			<div id="wrapper" >
+					
 				<!-- Intro -->
+				
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Hi,</h1>
-							<h1>I'm Cristina</h1>
-							<p>Web developer, nature enthusiast!</p>
-							
-						</div>
+							<div>   
+						    <br />
+							<br />
+							<br />
+							<br />
+							 <h1>Cristina Lugo</h1>
+							 <p>Web developer</p>
+							</div>
+								<div class='container-fluid' id="particles-js">	
+										
+						   
+								</div>
+								<div class='container-fluid' id="particle-js">											
+										 </div>
+										
+										 
 					</section>
-
+					
+				
 				<!-- About -->
 					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+						
+						<section id='about'>
+							<a href="#" class="image"><img src="images/about.JPG" alt="" data-position="center center" /></a>
 							<div class="content">
-								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
+								<div class="inner" >
+									<h2>About me</h2>
+									<p>I'm a web developer with a background in Geology. I'm passionate about science, coding, security, education and data analysis. I fell in love with web development after learning Ruby.</p>
+									<!--<ul class="actions">
+										<li><a href="generic.html" class="button">View more</a></li>
+									</ul>-->
 								</div>
 							</div>
 						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+						<section id='about'>
+							<a href="#" class="image"><img src="images/skills.jpg" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
+									<h2>Skills</h2>
+									<p>I recently finished the Full-Stack Web Development course from Flatiron School. I have experience working with Ruby, Ruby on Rails, HTML, CSS, SQL, JavaScript, React, and Redux.</p>
+								<!--	<ul class="actions">
+										<li><a href="generic.html" class="button">View more</a></li>
+									</ul> -->
 								</div>
 							</div>
 						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
+						
 					</section>
-
+					
 				<!-- Portfolio -->
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>Portfolio Projects</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							
 							<div class="features">
 								<section>
 									<span class="icon major fa-code"></span>
 									<h3>Winecell</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h4>A ReactJS virtual winecellar</h4>
+									<ul>
+									  <li> Created Backend API with Rails using SQLite as
+										database</li>
+										<li> Utilized Redux library for all API calls and
+										 state management</li>
+										<li> Used Thunk middleware to make asynchronous calls</li>
+									</ul>
+									<div>								
+								<ul class='icons'>
+									<li><a href = 'https://github.com/cmlugoce/winecell' class=" fa-github"><span class="label">GitHub</span> View Code</a> </li>
+									<li><a href = 'https://drive.google.com/file/d/1so6y2K7DvmbnQRtF6RXrJxDGBjUEQOPT/view' class=" fa-youtube"><span class="label">Video</span> View Demo Video</a> </li> 
+
+								</ul>
+								</div>
 								</section>
 								<section>
-									<span class="icon major fa-lock"></span>
+									<span class="icon major fa-code"></span>
 									<h3>Parks-book with jQuery</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h4>Helps users create and share park visits</h4>
+									<ul>
+										<li>Built RESTful API using Ruby on Rails and the MVC pattern</li>
+										<li>Developed interactive AJAX functionality with JavaScript and jQuery</li>
+										<li>Used Omniauth for OAuth authentication with Facebook</li>
+										<li>Integrated Bootstrap to design the UI</li>
+									</ul>
+									<div>								
+										<ul class='icons'>
+											<li><a href = 'https://github.com/cmlugoce/parks-book' class=" fa-github"><span class="label">GitHub</span> View Code</a> </li>
+											<li><a href = 'https://drive.google.com/file/d/1GwbyP7sgk2BMGCt_qKhC4oy-Z5y8Dcy_/view' class=" fa-youtube"><span class="label">Video</span> View Demo Video</a> </li> 
+
+										</ul>
+										</div> 
 								</section>
 								<section>
-									<span class="icon major fa-cog"></span>
+									<span class="icon major fa-code"></span>
 									<h3>Adventure</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h4>A tool for logging hikes</h4>
+									<ul>
+										<li>Used Sinatra to build APIs and MVC pattern</li>
+										<li> Authenticated users using Ruby gem BCrypt</li>
+										<li> Incorporated Bootstrap to style the front end</li>
+										
+									</ul>
+
+									<div>								
+										<ul class='icons'>
+											<li><a href = 'https://github.com/cmlugoce/adventure' class=" fa-github"><span class="label">GitHub</span> View Code</a> </li>
+											<li><a href = 'https://drive.google.com/file/d/1E1YIzCo0z89EWBWCejXvloYAexQQeOl9/view' class=" fa-youtube"><span class="label">Video</span> View Demo Video</a> </li> 
+
+										</ul>
+										</div>
 								</section>
 								<section>
-									<span class="icon major fa-desktop"></span>
+									<span class="icon major fa-code"></span>
 									<h3>Wanderer</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h4>CLI app showing long-distance hiking trails around the world</h4>
+									<ul>
+										<li>Used Nokogiri to scrape data from Fodor's website</li>
+										<li>Added CLI executable to run program</li>
+										<li>Utilized the Colorize gem to style the CLI</li>
+										
+									</ul>
+
+									<div>								
+										<ul class='icons'>
+											<li><a href = 'https://github.com/cmlugoce/wanderer' class=" fa-github"><span class="label">GitHub</span> View Code</a> </li>
+											<li><a href = 'https://www.youtube.com/watch?v=pUG2tOeyU7s' class=" fa-youtube"><span class="label">Video</span> View Demo Video</a> </li> 
+
+										</ul>
+										</div>
 								</section>
 								
 							</div>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
 						</div>
 					</section>
+							<!-- <ul class="actions">
+								<li><a href="generic.html" class="button">Learn more</a></li>
+							</ul>
+						
+					 -->
 
 				<!-- Contact -->
+
+                 
+
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<p>Under construction...</p>
 							<div class="split style1">
-								<section>
-									<form method="post" action="#">
+								<section> <!--
+									<form method="post" name="myemailform" action="index.php">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
@@ -138,11 +202,13 @@
 											</div>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
+											<li><button class="button submit" type="submit" name="submit">Send Message</button></li>
 										</ul>
-									</form>
+									</form> -->
 								</section>
 								<section>
+
+										
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
@@ -169,7 +235,7 @@
 							</div>
 						</div>
 					</section>
-
+				
 			</div>
 
 		<!-- Footer -->

@@ -34,7 +34,7 @@
     height: 3px;
     /* Set the hr color */
     color: #333; /* old IE */
-    background-color: #333; /* Modern Browsers */  }
+    background-color: #5e42a6; /* Modern Browsers */  }
   
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -3923,4 +3923,39 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		}
+
+
+		.ic-btn{
+			
+			border-radius: 5px;
+			margin: 0 auto;
+			width: 200px;
+			padding: 4px;
+			margin: 5px;
+			text-align: center;
+			color: white;
+			
+			border: solid white;
+		}
+
+		.ic-btn:hover{
+
+			background-color: white;
+			border: solid #5e42a6;
+			color: #5e42a6;
+
+		}
+
+		.ic-btn > a:hover{
+
+			background-color: white;
+			
+			color: #5e42a6;
+
+		}
+
+		#lis{
+			justify-content: center;
+			
 		}

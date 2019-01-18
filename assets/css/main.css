@@ -3752,7 +3752,7 @@ input, select, textarea {
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 0.6em;
+			font-size: 1em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
@@ -3898,7 +3898,7 @@ input, select, textarea {
 	}
 
 		#intro p {
-			font-size: 1.25em;
+			font-size: 2em;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3930,7 +3930,7 @@ input, select, textarea {
 			
 			border-radius: 5px;
 			margin: 0 auto;
-			width: 200px;
+			width: 300px;
 			padding: 4px;
 			margin: 5px;
 			text-align: center;

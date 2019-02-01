@@ -1,10 +1,38 @@
 @import url(font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Mali:500');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+#me{
+	display: flex;
+	justify-content: center;
+	
+	margin-bottom: 5px;
+}
+
+#am{
+	margin-top: -25px;
+	height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 350px;
+	border-radius: 5px;
+	overflow: hidden;
+	
+}
+#about-me{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#describe-me{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
 #particles-js {
 	margin: 0;
 	

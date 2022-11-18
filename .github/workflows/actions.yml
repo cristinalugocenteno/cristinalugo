@@ -18,3 +18,4 @@ jobs:
         with:
           accessToken: ${{ secrets.LD_ACCESS_TOKEN }}
           projKey: cristina-l-sandbox
+          repoName: lalala

@@ -16,6 +16,6 @@ jobs:
         uses: launchdarkly/find-code-references@v2.2.2
         with:
           accessToken: ${{ secrets.LD_ACCESS_TOKEN }}
-          projKey: cristina-l-sandbox
+          projKey: cats-in-space
           repoName: nanans
         

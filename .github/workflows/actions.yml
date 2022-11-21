@@ -16,6 +16,6 @@ jobs:
         uses: launchdarkly/find-code-references@v2.8.0
         with:
           accessToken: ${{ secrets.LD_ACCESS_TOKEN }}
-          projKey: cats
+          
           repoName: hey
         

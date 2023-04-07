@@ -19,3 +19,4 @@ jobs:
           accessToken: ${{ secrets.LD_ACCESS_TOKEN }}
           projKey:   cats
           repoName: cristinalugoportfolio
+          defaultBranch: code-ref

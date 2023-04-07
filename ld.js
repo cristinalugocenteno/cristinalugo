@@ -47,6 +47,8 @@ ldClient.identify(user)
   
 
  const detail = ldClient.variationDetail('intro', false);
+ //const detail = ldClient.variationDetail('catsss', false);
+
  
 const clicked = (e) =>{
 e.preventDefault()

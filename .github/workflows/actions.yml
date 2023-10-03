@@ -20,3 +20,4 @@ jobs:
           projKey:   cats
           repoName: cristinalugoportfolio
           branch: code-ref
+          contextLines: -1

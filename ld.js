@@ -45,7 +45,7 @@ ldClient.identify(user)
  
   
   
-
+console.log(ldClient.variation('intro', false))
  const detail = ldClient.variationDetail('intro', false);
  
 const clicked = (e) =>{

@@ -45,8 +45,8 @@ ldClient.identify(user)
  
   
   
-console.log(ldClient.variation('intro', false))
- const detail = ldClient.variationDetail('intro', false);
+console.log(ldClient.variation('kitty', false))
+ const detail = ldClient.variationDetail('kitty', false);
  
 const clicked = (e) =>{
 e.preventDefault()

@@ -20,3 +20,9 @@ jobs:
           projKey:   default
           repoName: cristinalugoportfolio
           contextLines: 0
+          aliases:
+      - type: literal
+          flags:
+            flag-test:
+              -flagTest
+       

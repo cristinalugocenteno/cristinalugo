@@ -45,10 +45,7 @@ ldClient.identify(user)
  
   
   
-console.log(ldClient.variation('katz', false))
-  console.log(ldClient.variation('flag-test', false))
 
- const detail = ldClient.variationDetail('flag-test', false);
  
 const clicked = (e) =>{
 e.preventDefault()

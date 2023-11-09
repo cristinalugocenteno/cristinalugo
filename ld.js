@@ -42,7 +42,8 @@ let user = {
 
 console.log(user)
 ldClient.identify(user)
- 
+ console.log(katz)
+  ldClient.variation('katz', false)
   
   
 

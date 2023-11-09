@@ -18,7 +18,6 @@ jobs:
         with:
           accessToken: ${{ secrets.LD_ACCESS_TOKEN }}
           projKey:   default
-          repoName: cristinalugoportfolio
-          branch: code-ref
+          repoName: cristinalugoportfoli
           contextLines: 1
          

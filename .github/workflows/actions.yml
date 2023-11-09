@@ -19,5 +19,5 @@ jobs:
           accessToken: ${{ secrets.LD_ACCESS_TOKEN }}
           projKey:   default
           repoName: cristinalugoportfolio
-          contextLines: 0
+          contextLines: 1
          

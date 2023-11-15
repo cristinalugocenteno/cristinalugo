@@ -14,4 +14,4 @@ jobs:
           project-key: default
           environment-key: production
           access-token: ${{ secrets.LD_ACCESS_TOKEN }}
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: write

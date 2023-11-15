@@ -43,6 +43,7 @@ let user = {
 console.log(user)
 ldClient.identify(user)
  console.log(katz)
+  console.log(color)
   ldClient.variation('katz', false)
   
   

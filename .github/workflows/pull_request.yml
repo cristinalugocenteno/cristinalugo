@@ -12,7 +12,7 @@ jobs:
         id: find-flags
         with:
           project-key: default
-          environment-key: production
+          environment-key: test
           access-token: ${{ secrets.LD_ACCESS_TOKEN }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Add label

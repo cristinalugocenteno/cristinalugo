@@ -30,7 +30,7 @@ const Home = ({ flags, ldClient, LDOptions }) => {
   const [coffeeType, setCoffeeType] = useState( "")
  
 console.log("flag",flags)
-const { json, coffee, soup, intro, katz, color } = useFlags();
+const { json, coffee, soup, intro} = useFlags();
 
 const history = useHistory();
 let user = {
@@ -42,10 +42,7 @@ let user = {
 
 console.log(user)
 ldClient.identify(user)
- console.log(katz)
-  console.log(color)
-  ldClient.variation('katz', false)
-  
+ 
   
 
  

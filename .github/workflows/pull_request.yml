@@ -1,4 +1,6 @@
 on: pull_request
+permissions:
+  pull-requests: write
 
 jobs:
   find-flags:
@@ -15,7 +17,7 @@ jobs:
           environment-key: production
           access-token: ${{ secrets.LD_ACCESS_TOKEN }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-      - name: test
+      - name: ld-flags
         if: steps.find-flags.outputs.any-changed == 'true'
         run: gh pr edit $PR_NUMBER --add-label ld-flags
         env:
